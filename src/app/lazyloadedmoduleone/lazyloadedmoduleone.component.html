@@ -1,5 +1,37 @@
+<div>
+    <h1>Lazy Loading</h1>
+    <p>Lazy loading is the process of loading components, modules, or other assets of a website as they're required.</p>
+    <h3>Root Module</h3>
+    <p>By default, a root module or app module is created under /src/app.</p>
+    <h3>Lazy Loaded Modules</h3>
+    <p>ng generate module modulea --route a --module app.module</p>
+    <p> ng generate module moduleb --route b --module app.module</p>
+</div>
+
+<div>
+    <h1>Boostrap Installation</h1>
+    <p>Bootstrap CSS framework which provides rich and responsive interface components.</p>
+    <p>npm install bootstrap bootstrap-icons</p>
+    <p>"styles": [
+        "node_modules/bootstrap/scss/bootstrap.scss",
+        "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+        "src/styles.scss"
+      ],
+      "scripts": [
+        "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      ]</p>
+      <p>npm install ng-bootstrap/ng-bootstrapnext</p>
+      <p>library which contains native Angular support:</p>
+      <p>import the NgbModule module</p>
+    <p> boostrap and boostrap icons and change angular.json</p>
+</div>
 <div class="row my-3">
     <div class="col">
         <button class="btn btn-sm btn-outline-primary" routerLink="" routerLinkActive="active">Back</button>
+    </div>
+</div>
+<div class="row my-3">
+    <div class="col">
+        <button class="btn btn-sm btn-outline-primary" routerLink="parent-child-communication" routerLinkActive="active">Data Sharing between components</button>
     </div>
 </div>
