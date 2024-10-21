@@ -1,0 +1,89 @@
+.disabled-li {
+    color: gray;
+    text-decoration: line-through;
+  }
+
+  .sidebar {
+    transition: all 0.5s;
+    background: #ffffff;
+    width: 260px;
+    overflow: hidden;
+    display: inline-block;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    border-right: 1px solid #f2f4f9;
+    box-shadow: 0 8px 10px 0 rgba(183, 192, 206, 0.2);
+    z-index: 999 !important;
+}
+
+.main-sidebar .sidebar-brand {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+.sidebar-style {
+    font-size: 10px !important;
+    font-family: "Allianz Neo", sans-serif !important;
+}
+
+.sidebar .menu {
+    position: relative;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+element.style {
+    position: relative;
+    max-height: 310px;
+}
+
+.sidebar .menu .list {
+    list-style: none;
+    padding-left: 0;
+}
+
+p, ul:not(.list-unstyled), ol {
+    line-height: 28px;
+}
+.sidebar .menu .list a {
+    color: #000000;
+    position: relative;
+    font-size: 14px;
+    display: block;
+    overflow: hidden;
+    line-height: 2rem;
+    padding: 9px 9px 9px 18px;
+    text-decoration: none;
+}
+
+.sidebar .menu .list a span {
+    margin: 7px 0 7px 12px;
+    font-size: 14px;
+    overflow: hidden;
+    letter-spacing: 0.3px;
+    color: #484848;
+    font-weight: 600;
+}
+
+.myNavStyle {
+    font-family: "Allianz Neo", sans-serif !important;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.sidebar .menu .list {
+    list-style: none;
+    padding-left: 0;
+}

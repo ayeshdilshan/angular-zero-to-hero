@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { RemoteEntryComponent } from './remote-entry.component';
+import { MainLayoutComponent } from '../layout/main-layout/main-layout.component';
 
 const routes: Routes = [
-  { path: '', component: RemoteEntryComponent },
+  { path: '', component: MainLayoutComponent },
   {
     path: 'a',
     loadChildren: () =>
